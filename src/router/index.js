@@ -27,6 +27,15 @@ const routes = [
     path: '/rooms',
     name: 'Rooms',
     component: () => import(/* webpackChunkName: "rooms" */ '../views/Rooms.vue')
+  },
+  {
+    path: '/check-in/:hostID/:roomID',
+    name: 'CheckIn',
+    component: () => import(/* webpackChunkName: "checkin" */ '../views/CheckIn.vue')
+  },
+  {
+    path: '*',
+    redirect: '/'
   }
 ]
 

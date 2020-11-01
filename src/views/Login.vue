@@ -39,7 +39,7 @@ export default {
     }
   },
   methods: {
-    login: function() {
+    login() {
       const info = {
         email: this.email,
         password: this.password

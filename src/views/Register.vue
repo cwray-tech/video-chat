@@ -57,7 +57,7 @@ export default {
     }
   },
   methods: {
-    register: function() {
+    register() {
       const info = {
         email: this.email,
         password: this.password,
